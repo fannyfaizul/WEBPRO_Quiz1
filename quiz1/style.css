@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeInText {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    60% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hometown-img img{
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 60px;
+    animation: fadeIn 2s;
+    border-radius: 2%;
+}
+
+.food-img img{
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 60px;
+    animation: fadeIn 2s;
+    border-radius: 2%;
+}
+
+.tour-img1 img{
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 60px;
+    animation: fadeIn 2s;
+    border-radius: 2%;
+}
+
+.tour-img2 img{
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 100px;
+    animation: fadeIn 2s;
+    border-radius: 2%;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Verdana;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 6px
+}
+
+.logo span{
+    color: #fff;
+}
+
+.menu{
+    width: 600px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.hometown-content{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+}
+
+.hometown-content .par{
+    width: 600px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.hometown-content h1{
+    font-family: 'Helvetica';
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.hometown-content span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.food-content{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 100px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+}
+
+.food-content .par{
+    width: 600px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.food-content h1{
+    font-family: 'Helvetica';
+    color: #ff7200;
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.food-content span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.tour-content1{
+    width: 400px;
+    height: auto;
+    margin-left: 60px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+}
+
+.tour-content1 .par{
+    width: 400px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.tour-content1 h1{
+    font-family: 'Helvetica';
+    color: #ff7200;
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.tour-content1 span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.tour-content2{
+    width: 600px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 100px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+}
+
+.tour-content2 .par{
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.tour-content2 h1{
+    font-family: 'Helvetica';
+    color: #ff7200;
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.tour-content2 span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.home-text{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+}
+
+.home-text .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+.home-text h1{
+    font-family: 'Helvetica';
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.home-text span{
+    color: #ff7200;
+    font-size: 50px
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+.profile-content{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 120px;
+    color: #fff;
+    position: relative;
+    animation: fadeInText 1s;
+    float: left;
+}
+
+.profile-content h1{
+    font-family: 'Helvetica';
+    font-size: 60px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.profile-content span{
+    font-family: 'Helvetica';
+    font-size: 60px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-left: 200px;
+    color: #ff7200;
+}
+
+.profile-content span1{
+    font-family: 'Helvetica';
+    font-size: 60px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+}
+
+.avatar img{
+    height: 525px;
+    margin-right: 120px;
+    animation: fadeIn 2s;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+}
+.about-text{
+	width: 550px;
+}
+.main2{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
